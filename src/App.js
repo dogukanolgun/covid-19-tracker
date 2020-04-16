@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import CardDeck from 'react-bootstrap/CardDeck';
-import Card from 'react-bootstrap/Card';
 import Columns from 'react-columns';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';

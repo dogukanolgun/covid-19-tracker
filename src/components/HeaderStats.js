@@ -1,21 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import moment from 'moment';
-
-// <Card
-//   bg="secondary"
-//   text="white"
-//   className="text-center"
-//   style={{ margin: '10px' }}
-// >
-//   <Card.Body>
-//     <Card.Title>Cases</Card.Title>
-//     <Card.Text>wow</Card.Text>
-//   </Card.Body>
-//   <Card.Footer>
-//     <small>Last updated {lastUpdated}</small>
-//   </Card.Footer>
-// </Card>
 
 const headerDataToComponents = (latest, lastUpdated) => {
   return (
