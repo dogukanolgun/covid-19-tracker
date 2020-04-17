@@ -3,8 +3,8 @@ import axios from 'axios';
 const getDataFromApi = (setLatest, setResults) => {
   axios
     .all([
-      axios.get('https://corona.lmao.ninja/all'),
-      axios.get('https://corona.lmao.ninja/countries')
+      axios.get('https://corona.lmao.ninja/v2/all'),
+      axios.get('https://corona.lmao.ninja/v2/countries')
     ])
     .then((responseArr) => {
       setLatest(responseArr[0].data);
